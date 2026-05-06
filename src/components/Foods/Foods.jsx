@@ -7,7 +7,8 @@ const Foods = ({foodPromise}) => {
             
     return (
         <div >
-            <h2>FOOD:{foods.meals.length}</h2>
+            <h2>FOOD LIST : {foods.meals.length}</h2>
+            <p>testing food : </p>
  <div className='food-container'>
            {
             foods.meals.map(food=><SingleFood food={food}></SingleFood>)
